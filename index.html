@@ -15,19 +15,18 @@
   <title>Flash Photography</title>
 </head>
 <body>
-  
+  <main>
 <header>
  
 <!-- adds a navbar with a collapseable nav bar -->
 <section class="navibar">
-<nav class="navbar navbar-expand-lg navbar-light bg-danger text-white border-bottom rounded" >
-  <a class="navbar-brand" href="#">FP</a> 
- 
+<nav class="navbar navbar-expand-lg navbar-light bg-danger border-bottom rounded" >
+  <a class="navbar-brand text-white" href="#">FP</a>  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse justify-content-center text-white" id="navbarNav" id="navbutton" >
-    <ul class="navbar-nav text-white" >
+  <div class="collapse navbar-collapse justify-content-center " id="navbarNav" id="navbutton" >
+    <ul class="navbar-nav" >
       <li class="nav-item">
         <a class="nav-link" href="#home">Home</span></a>
       </li>
@@ -47,8 +46,8 @@
 </header>
 
 
-<!-- Hero Section for Home link-->
-<section class="border-bottom border-primary rounded bg-danger">
+<!-- Hero for Home section-->
+<section class="border-bottom border-primary bg-danger">
   <div class="hero" id="home">
   <div class="jumbotron jumbotron-fluid p-3">
     <div class="container-fluid text-center">
@@ -60,21 +59,23 @@
   </div>
 </section>
 
-<!-- About section with styles and flexbox-->
-<section class="border-bottom border-primary rounded bg-danger" id="about"> 
-  <div class="container-fluid d-flex justify-content-center bg-danger">
+<!-- About US section with styles and flexbox-->
+
+<!-- <div class="container-fluid bg-success border-bottom" id="abouts"> -->
+  <section class="border-bottom border-dark rounded bg-success mt-1" id="about"> 
+  <div class="container-fluid d-flex justify-content-center bg-success">
     <div class="justify-content-center"><h1>About Us</h1></div>
   </div>
-  <p class="mb-0 text-center bg-danger">
+  <p class=" text-center bg-success">
     This is our story
-  </p>
-</span>
+  </p>  
 </section>
 
 
 <!-- Services with bootstrap card section that puts them in a row with styles and grid functions*/ -->
-<section class="hero" id="services"> 
-    <div class="d-flex justify-content-center">
+<section class="border-dark rounded bg-success mt-1" id="services">  
+
+    <div class="d-flex justify-content-center"> 
         <div class="col-sm-6">
             <div class="card" id="card">
             <img class="card-img-top" src="C:\Users\wasadmin\Desktop\company-page-master\photo1.jpg" alt="person taking a photo">
@@ -88,7 +89,7 @@
         </div>
     </div>
     </div>
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center ">
         <div class="col-sm-6">
             <div class="card" id="card">
             <img class="card-img-top" src="C:\Users\wasadmin\Desktop\company-page-master\photo1.jpg" alt="person taking a photo">
@@ -117,13 +118,12 @@
     </div>    
     </div>
     </section>
-
-    
+ 
   
     <!-- footer section --> 
     <section class="contact" id="contact">
       <footer>
-        <div class="container-fluid bg-dark text-white">
+        <div class="container-fluid bg-dark text-white  ">
           <div class="d-flex justify-content-center">
             <i class="fab fa-alipay"></i>
               <p>If you have any questions you can email us at <a href="mailto:company@email.com">company@email.com.</a> You can also message us through <a href="https://www.twitter.com/">
@@ -166,6 +166,6 @@
     </section>
     
 
-    
+  </main>
 </body>
 </html>
