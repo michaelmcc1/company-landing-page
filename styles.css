@@ -15,7 +15,7 @@ a:hover{
     color: white;
 }
 
-.navibar, .hero, nav, #about, #services{
+.navibar, .hero, nav, #about, #services, #contact{
     box-shadow: 0px 8px 10px 6px #000000;
     padding-bottom: 5px;
 }
