@@ -1,0 +1,32 @@
+a:hover{
+    text-decoration: underline;
+    color: red;
+} 
+#button:hover {
+    color: red;
+}
+#navbutton:hover,li:hover{ 
+    background-color: blue;
+    color: white;
+    
+}
+
+.navbar-item { 
+    display: flex;
+    justify-content: center; 
+  }
+ 
+#services{   
+    background-color: black; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+#card {
+    display:flex;
+    justify-content: center;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+}
