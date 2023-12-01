@@ -1,6 +1,7 @@
 a:hover{
     text-decoration: underline;
     color: red;
+    text-shadow: 10px 10px 5px #000000; 
 } 
 #button:hover {
     color: red;
@@ -8,7 +9,10 @@ a:hover{
 #navbutton:hover,li:hover{ 
     background-color: blue;
     color: white;
-    
+}
+
+.navibar,nav, section, .hero{
+    box-shadow: 5px 5px 10px 1px #000000;
 }
 
 .navbar-item { 

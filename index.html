@@ -19,7 +19,8 @@
 <header>
  
 <!-- adds a navbar with a collapseable nav bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-danger text-white" >
+<section class="navibar">
+<nav class="navbar navbar-expand-lg navbar-light bg-danger text-white border-bottom rounded" >
   <a class="navbar-brand" href="#">FP</a> 
  
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
@@ -42,10 +43,12 @@
     </ul>
   </div>
 </nav>
+</section>
 </header>
 
-<!-- Hero Section -->
-<section class="bg-secondary border border-dark">
+
+<!-- Hero Section for Home link-->
+<section class="border-bottom border-primary rounded bg-danger">
   <div class="hero" id="home">
   <div class="jumbotron jumbotron-fluid p-3">
     <div class="container-fluid text-center">
@@ -56,6 +59,18 @@
   </div>
   </div>
 </section>
+
+<!-- About section with styles and flexbox-->
+<section class="border-bottom border-primary rounded bg-danger" id="about"> 
+  <div class="container-fluid d-flex justify-content-center bg-danger">
+    <div class="justify-content-center"><h1>About Us</h1></div>
+  </div>
+  <p class="mb-0 text-center bg-danger">
+    This is our story
+  </p>
+</span>
+</section>
+
 
 <!-- Services with bootstrap card section that puts them in a row with styles and grid functions*/ -->
 <section class="hero" id="services"> 
@@ -103,19 +118,9 @@
     </div>
     </section>
 
-    <!-- About section with styles and flexbox-->
-    <section class="about" id="about"></section>
-    <blockquote class="blockquote"> 
-    <div class="container-fluid d-flex justify-content-center bg-danger">
-      <div class="  justify-content-center"><h1>About Us</h1></div>
-    </div>
-      <p class="mb-0 text-center bg-danger">
-        This is our story
-      </p>
-    </blockquote>
+    
   
     <!-- footer section --> 
-
     <section class="contact" id="contact">
       <footer>
         <div class="container-fluid bg-dark text-white">
